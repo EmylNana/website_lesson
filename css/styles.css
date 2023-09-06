@@ -1,0 +1,30 @@
+.navbar-default{
+	background: lightblue;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-default li:hover{
+	background: grey;
+	transition: 0.5s all;
+}
+
+#person{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
+
+#first-person{
+	display: flex;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
