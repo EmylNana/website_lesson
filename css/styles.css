@@ -18,8 +18,6 @@
 
 .persons{
 	margin-top: 50px;
-	display: flex;
-	margin-right: 60%;
 }
 
 .faq{
@@ -27,15 +25,13 @@
 }
 
 
-aside {
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-  font-style: italic;
-  background-color: lightgray;
+.flex{
+	display: flex;
 }
 
+.center{
+	text-align: center;
+}
 
 .tg  {
 	border-collapse:collapse;border-spacing:0;
@@ -68,3 +64,4 @@ aside {
 	text-align:left;
 	vertical-align:top
 }
+
