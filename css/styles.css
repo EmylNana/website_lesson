@@ -6,8 +6,12 @@
 }
 
 .navbar-default li:hover{
-	background: grey;
+	background: #81a9b6;
 	transition: 0.5s all;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #81a9b6;
 }
 
 #person{
@@ -16,9 +20,15 @@
 	border-radius: 100px;
 }
 
+
 .persons{
-	margin-top: 50px;
+	margin-top: 30px;
 }
+
+.persons img{
+	margin-top: 20px;
+}
+
 
 .faq{
 	width: 50%;
@@ -32,6 +42,63 @@
 .center{
 	text-align: center;
 }
+
+.bold{
+	font-weight: bold;
+}
+
+
+#dashboard{
+	margin-top: 30px;
+}
+
+.faq summary{
+	cursor: pointer;
+}
+
+
+.home-page article{
+	background-color: pink;
+	border-radius: 20px;
+	border: 1px solid green;
+	margin: 5px;
+	padding: 30px;
+}
+
+
+
+
+body{
+	    background-color: #e3e3e3;
+}
+
+hr{
+	border-top: 1px solid #aaa;
+}
+
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+
 
 .tg  {
 	border-collapse:collapse;border-spacing:0;
