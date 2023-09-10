@@ -1,8 +1,89 @@
+/*TAGS*/
+
+header{
+	margin-bottom: 30px;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: lightblue;
+	color: white;
+	text-align: center;
+}
+
+main {
+    margin-top: 70px; /* add some margin to the top of the main content */
+	margin-bottom: 30px;
+  }
+
+body{
+	    background-color: #e3e3e3;
+}
+
+hr{
+	border-top: 1px solid #aaa;
+}
+
+
+details {
+    background: white;
+    border: 3px solid lightblue;
+    border-radius: 20px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+
+/*CLASSES AND ID's*/
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a, footer, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: black;
+}
+
+.navbar-logo img{
+    width: 25vh;
+    height: 100%;
+}
+
+
+.navbar ul li{
+	transition: background-color 1s ease-out 100ms
+}
+
+.navbar-nav{
+z-index: 10;  
+position: absolute;  
+right: 0;  
+top: 0;
+}
+
 .navbar-default{
 	background: lightblue;
 	margin: 0;
 	border: 0;
 	border-radius: 0;
+	display: flex;
 }
 
 .navbar-default li:hover{
@@ -21,18 +102,10 @@
 }
 
 
-.persons{
-	margin-top: 30px;
-}
-
 .persons img{
 	margin-top: 20px;
 }
 
-
-.faq{
-	width: 50%;
-}
 
 
 .flex{
@@ -58,56 +131,67 @@
 
 
 .home-page article{
-	background-color: pink;
-	border-radius: 20px;
-	border: 1px solid green;
-	margin: 5px;
-	padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid lightblue;
+    margin: 5px;
+    padding: 30px;
 }
 
-
-
-
-body{
-	    background-color: #e3e3e3;
+#blog-about-me{
+	width: 60%;
+    margin-right: 5%;
+    background: white;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid lightblue;
 }
 
-hr{
-	border-top: 1px solid #aaa;
+#blog-about-me hr, .profiles hr{
+	border-top: 2px solid lightblue;
 }
 
-
-details {
-  border: 1px solid #aaa;
-  border-radius: 4px;
-  padding: 0.5em 0.5em 0;
+#skills{
+	width: 40%;
+	background: white;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid lightblue;
 }
 
-summary {
-  font-weight: bold;
-  margin: -0.5em -0.5em 0;
-  padding: 0.5em;
+.profiles{
+	background: white;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid lightblue;
 }
 
-details[open] {
-  padding: 0.5em;
+.video{
+	padding: 15px 5px;
+    border-radius: 30px;
+    border: 2px solid lightblue;
+	background-color: white;
 }
 
-details[open] summary {
-  border-bottom: 1px solid #aaa;
-  margin-bottom: 0.5em;
+.video frame{
+	border-radius: 30px;
 }
 
+/*TABLE styles*/
 
+table{
+	background: white;
+	width: 100%;
+}
 
 .tg  {
 	border-collapse:collapse;border-spacing:0;
 }
 
 .tg td{
-	border-color:black;
+	border-color: lightblue;
 	border-style:solid;
-	border-width:1px;
+	border-width:2px;
 	font-family:Arial, sans-serif;
 	font-size:14px;
     overflow:hidden;
@@ -116,9 +200,9 @@ details[open] summary {
 }
 
 .tg th{
-	border-color:black;
+	border-color: lightblue;
 	border-style:solid;
-	border-width:1px;
+	border-width:2px;
 	font-family:Arial, sans-serif;
 	font-size:14px;
     font-weight:normal;

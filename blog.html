@@ -3,29 +3,42 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>INDEX</title>
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<title>Blog</title>
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
 </head>
 <body>
 
 	<header>
 		<nav class="navbar navbar-default">
+
+			<div class="navbar-logo">
+				<a href="http://localhost/hz/index.html">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Lorem_Ipsum_DVvD.png" alt="">
+				</a>
+			</div>
+
+			<div>
 		    <ul class="nav navbar-nav">
-		      <li><a href="index.html">Home</a></li>
+		      <li class="active"><a href="index.html">Home</a></li>
 		      <li><a href="profile.html">Profiles</a></li>
-		      <li class="active"><a href="blog.html">Blog</a></li>
+		      <li><a href="blog.html">Blog</a></li>
 		      <li><a href="faq.html">FAQ</a></li>
 		      <li><a href="dashboard.html">Dashboard</a></li>
 		    </ul>
+			</div>
+			
 		</nav>
 	</header>
 
-<section class="flex container">
+<main>
+	<section class="flex container">
 
-	<div style="width:60%; margin-right: 5%;">
+	<div id="blog-about-me">
 
 	<article>
 		<h1>Who am I?</h1>
@@ -40,7 +53,7 @@
 
 	</div>
 
-<article style="width:40%;">
+<article id="skills">
 	  <h1>Skills</h1>
 	    <ul>
 		  <li>Front-end development;</li>
@@ -65,8 +78,10 @@
 
 
 
-</section>
+	</section>
+</main>
 
+<footer>Copyright website 2023 | All Rights Reserved</footer>
 
 </body>
 </html>
