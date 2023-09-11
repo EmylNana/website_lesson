@@ -16,7 +16,7 @@
 	<header>
 		<nav class="navbar navbar-default">
 
-			<div class="navbar-logo">
+			<div class="navbar-logo mobile-none">
 				<a href="http://localhost/hz/index.html">
 					<img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Lorem_Ipsum_DVvD.png" alt="">
 				</a>
@@ -24,81 +24,117 @@
 
 			<div>
 		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="index.html">Home</a></li>
+		      <li><a href="index.html">Home</a></li>
 		      <li><a href="profile.html">Profiles</a></li>
 		      <li><a href="blog.html">Blog</a></li>
 		      <li><a href="faq.html">FAQ</a></li>
-		      <li><a href="dashboard.html">Dashboard</a></li>
+		      <li class="active"><a href="dashboard.html">Dashboard</a></li>
 		    </ul>
 			</div>
 			
 		</nav>
 	</header>
 
+
+
+
 <main>
   <section class="container" id="dashboard">
 
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax">Exam</th>
-    <th class="tg-0lax">Credits</th>
-    <th class="tg-0lax">Grade</th>
-
+<table class="styled-table">
+  <thead>
+      <tr>
+          <th>Quartile</th>
+          <th>Course</th>
+          <th>EC</th>
+          <th>Exam</th>
+          <th>Grade</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">1</td>
+      <td>Program- & Career Orientation</td>
+      <td>2.5</td>
+      <td>Assessment website</td>
+      <td></td>
   </tr>
-</thead>
-<tbody>
-
   <tr>
-    <td class="tg-0lax">PCO: Program- & career</td>
-    <td class="tg-0lax">2.5</td>
-    <td class="tg-0lax"></td>
+    <td>Computer Science Basics</td>
+    <td>5</td>
+    <td>Written exam</td>
+    <td></td>
   </tr>
-
   <tr>
-    <td class="tg-0lax">Computer Science Basics</td>
-    <td class="tg-0lax">5</td>
-    <td class="tg-0lax"></td>
-  </tr>
-
-  <tr>
-    <td class="tg-0lax">PBA: Programming Basics</td>
-    <td class="tg-0lax">10</td>
-    <td class="tg-0lax"></td>
-  </tr>
-
-  <tr>
-    <td class="tg-0lax">OOP: Object Oriented Programming</td>
-    <td class="tg-0lax">5</td>
-    <td class="tg-0lax"></td>
+    <td>Programming Basics</td>
+    <td>5</td>
+    <td>Case study exam</td>
+    <td></td>
   </tr>
 
   <tr>
-    <td class="tg-0lax">FDE1: Framework Development 1</td>
-    <td class="tg-0lax">5</td>
-    <td class="tg-0lax"></td>
-  </tr>
+    <td rowspan="2">2</td>
+    <td rowspan="2">Object-Oriented Programming</td>
+    <td rowspan="2">10</td>
+    <td>Group assignment</td>
+    <td></td>
+</tr>
+<tr>
+  <td>Case study exam</td>
+  <td></td>
+</tr>
+<tr>
+  <td rowspan="4">3</td>
+  <td rowspan="4">Framework project 1</td>
+  <td rowspan="4">10</td>
+  <td>On-site case study exam</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Database exam</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Group presentation on project result</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Group portfolio</td>
+  <td></td>
+</tr>
+<tr>
+  <td rowspan="3">4</td>
+  <td rowspan="3">Framework Project 2</td>
+  <td rowspan="3">10</td>
+  <td>Final delivery</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Report of acceptance tests</td>
+  <td></td>
+</tr>
+<tr>
+  <td>IT Development portfolio</td>
+  <td></td>
+</tr>
+<tr>
+  <td>3 & 4</td>
+  <td>Framework Project 2</td>
+  <td>2.5</td>
+  <td>Video</td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>Personal Professional Development Exploration</td>
+  <td>12.5</td>
+  <td>Criterium focused interview</td>
+  <td></td>
+</tr>
 
-  <tr>
-    <td class="tg-0lax">FPR1: Framework Project 1</td>
-    <td class="tg-0lax">7.5</td>
-    <td class="tg-0lax"></td>
-  </tr>
-
-  <tr>
-    <td class="tg-0lax">FPR2: Framework project 2</td>
-    <td class="tg-0lax">10</td>
-    <td class="tg-0lax"></td>
-  </tr>
-
-  <tr>
-    <td class="tg-0lax">PPD-E: Personal Professional Development: Exploration</td>
-    <td class="tg-0lax">12.5</td>
-    <td class="tg-0lax"></td>
-  </tr>
-
-
-</tbody>
+  
+      <!-- and so on... -->
+  </tbody>
 </table>
 
   </section>

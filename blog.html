@@ -16,7 +16,7 @@
 	<header>
 		<nav class="navbar navbar-default">
 
-			<div class="navbar-logo">
+			<div class="navbar-logo mobile-none">
 				<a href="http://localhost/hz/index.html">
 					<img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Lorem_Ipsum_DVvD.png" alt="">
 				</a>
@@ -24,9 +24,9 @@
 
 			<div>
 		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="index.html">Home</a></li>
+		      <li><a href="index.html">Home</a></li>
 		      <li><a href="profile.html">Profiles</a></li>
-		      <li><a href="blog.html">Blog</a></li>
+		      <li class="active"><a href="blog.html">Blog</a></li>
 		      <li><a href="faq.html">FAQ</a></li>
 		      <li><a href="dashboard.html">Dashboard</a></li>
 		    </ul>
@@ -36,9 +36,10 @@
 	</header>
 
 <main>
-	<section class="flex container">
+	<section class="container">
+		<div class="row">
 
-	<div id="blog-about-me">
+	<div class="col-lg-6 col-sm-12" id="blog-about-me">
 
 	<article>
 		<h1>Who am I?</h1>
@@ -53,7 +54,9 @@
 
 	</div>
 
-<article id="skills">
+	<div class="col-lg-1"></div>
+
+<div class="col-lg-5 col-sm-12" id="skills">
 	  <h1>Skills</h1>
 	    <ul>
 		  <li>Front-end development;</li>
@@ -74,10 +77,10 @@
 		  </ol>
 
 		</ul>  
-</article>
+	</div>
 
 
-
+		</div>
 	</section>
 </main>
 
